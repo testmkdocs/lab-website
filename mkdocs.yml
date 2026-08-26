@@ -1,0 +1,73 @@
+# ============================================================
+# lab-website — MkDocs (phương án B, mục 4.2)
+# SỬA: mọi chỗ đánh dấu "SỬA:" bên dưới
+# ============================================================
+
+site_name: Research Group                      # SỬA: tên lab
+site_description: Nhóm nghiên cứu Khoa học dữ liệu / Machine Learning   # SỬA
+site_url: https://research-group.github.io/lab-website/   # SỬA: <org>.github.io/<repo>/
+
+# QUAN TRỌNG: hai dòng này quyết định build đọc ở đâu, xuất ra đâu
+docs_dir: docs
+site_dir: public          # phải khớp với 'path: public' trong deploy.yml
+
+repo_url: https://github.com/research-group/lab-website    # SỬA
+repo_name: research-group/lab-website                      # SỬA
+
+theme:
+  name: material
+  language: vi
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Chuyển sang nền tối
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Chuyển sang nền sáng
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Trang chủ: index.md
+  - Thành viên: team.md
+  - Công bố: publications.md
+  - Dự án: projects/index.md
+  # Mức 2 — trang riêng cho paper (mục 5.2 trong PLAN). Bỏ comment khi dùng:
+  # - Papers:
+  #     - Robust Medical Imaging: papers/abc-2026.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+plugins:
+  - search:
+      lang: vi
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/research-group      # SỬA
+    - icon: fontawesome/solid/envelope
+      link: mailto:lab@example.com                 # SỬA
+
+copyright: © 2026 Research Group                   # SỬA

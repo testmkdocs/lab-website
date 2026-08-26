@@ -1,0 +1,5 @@
+# PIN PHIÊN BẢN — bắt buộc.
+# MkDocs 2.0 sẽ phá vỡ tương thích (toàn bộ plugin ngừng hoạt động).
+# Để trần (không có ==) là có ngày CI vỡ dù bạn không đụng gì.
+mkdocs==1.6.1
+mkdocs-material==9.7.7
