@@ -36,6 +36,14 @@ Lê Văn C, Nguyễn Văn A, Phạm Thị D
 [PDF](https://arxiv.org/abs/2510.11111) · [Code](https://github.com/research-group/project-c) · [Website](https://research-group.github.io/paper-scaling-page/)
 <!-- ↑ MỨC 3: link trỏ ra repo riêng, domain khác -->
 
+## 2025
+
+**Robotics**
+Linh LD
+*EMNLP 2025*
+[PDF](https://arxiv.org/abs/2510.11111) · [Code](https://github.com/research-group/project-d) · [Website](https://24h.com.vn/)
+<!-- ↑ MỨC 3: link trỏ ra repo riêng, domain khác -->
+
 **A Survey on Self-Supervised Learning**
 Phạm Thị D, Lê Văn C
 *Journal of Machine Learning Research, 2025*
