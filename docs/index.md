@@ -23,4 +23,4 @@ Nhóm nghiên cứu về Khoa học dữ liệu và Machine Learning. Chúng tô
 - [Thành viên](team.md)
 - [Công bố](publications.md)
 - [Dự án](projects/index.md)
-- [GitHub](https://github.com/research-group)
+- [GitHub](https://github.com/testmkdocs)
