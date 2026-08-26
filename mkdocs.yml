@@ -5,14 +5,14 @@
 
 site_name: Research Group                      # SỬA: tên lab
 site_description: Nhóm nghiên cứu Khoa học dữ liệu / Machine Learning   # SỬA
-site_url: https://research-group.github.io/lab-website/   # SỬA: <org>.github.io/<repo>/
+site_url: https:/testmkdocs.github.io/lab-website/   # SỬA: <org>.github.io/<repo>/
 
 # QUAN TRỌNG: hai dòng này quyết định build đọc ở đâu, xuất ra đâu
 docs_dir: docs
 site_dir: public          # phải khớp với 'path: public' trong deploy.yml
 
-repo_url: https://github.com/research-group/lab-website    # SỬA
-repo_name: research-group/lab-website                      # SỬA
+repo_url: https://github.com/testmkdocs/lab-website    # SỬA
+repo_name: testmkdocs/lab-website                      # SỬA
 
 theme:
   name: material
@@ -66,8 +66,8 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/research-group      # SỬA
+      link: https://github.com/testmkdocs      # SỬA
     - icon: fontawesome/solid/envelope
-      link: mailto:lab@example.com                 # SỬA
+      link: mailto:duymanhutc@gmail.com                 # SỬA
 
-copyright: © 2026 Research Group                   # SỬA
+copyright: © 2026 Test Mkdocs                   # SỬA
