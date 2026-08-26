@@ -44,8 +44,8 @@ nav:
   - Công bố: publications.md
   - Dự án: projects/index.md
   # Mức 2 — trang riêng cho paper (mục 5.2 trong PLAN). Bỏ comment khi dùng:
-  # - Papers:
-  #     - Robust Medical Imaging: papers/abc-2026.md
+  - Papers:
+      - Robust Medical Imaging: papers/abc-2026.md
 
 markdown_extensions:
   - admonition
